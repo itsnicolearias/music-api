@@ -44,4 +44,4 @@ const trackSchema = new mongoose.Schema({
     versionKey: false
 });
 
-module.exports = mongoose.Model('Track', trackSchema)
+module.exports = mongoose.model('Track', trackSchema)

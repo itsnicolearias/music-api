@@ -13,4 +13,4 @@ const storageSchema = new mongoose.Schema({
     versionKey: false
 });
 
-module.exports = mongoose.Model('Storage', storageSchema)
+module.exports = mongoose.model('Storage', storageSchema)
